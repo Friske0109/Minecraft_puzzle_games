@@ -1,0 +1,1 @@
+function puzzle:lights_out/lo_click

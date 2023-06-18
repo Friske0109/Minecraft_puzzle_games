@@ -1,0 +1,1 @@
+scoreboard objectives add lights_out dummy
