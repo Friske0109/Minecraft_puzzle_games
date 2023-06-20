@@ -352,3 +352,8 @@ scoreboard players operation lo_buttons_answer23 lights_out += lo_button20_is_li
 scoreboard players operation lo_buttons_answer23 lights_out += lo_button22_is_light lights_out
 
 scoreboard players operation lo_buttons_answer23 lights_out %= 2 lights_out
+
+scoreboard players set lo_buttons_answer24 lights_out 0
+scoreboard players set lo_buttons_answer25 lights_out 0
+
+function puzzle:lights_out/lo_comparison

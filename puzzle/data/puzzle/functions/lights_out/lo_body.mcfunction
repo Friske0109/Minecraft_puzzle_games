@@ -357,6 +357,12 @@ data modify entity @e[tag=lo_answer22,type=block_display,limit=1] transformation
 execute at @e[tag=lo_button23,type=interaction,limit=1] run summon block_display ~-0.005 ~0.015 ~0.025 {Tags:["lo_answers","lo_answer23"],block_state:{Name:"red_concrete"}}
 data modify entity @e[tag=lo_answer23,type=block_display,limit=1] transformation.scale set value [0.01f,0.01f,0.01f]
 
+execute at @e[tag=lo_button24,type=interaction,limit=1] run summon block_display ~-0.005 ~0.015 ~0.025 {Tags:["lo_answers","lo_answer24"],block_state:{Name:"red_concrete"}}
+data modify entity @e[tag=lo_answer24,type=block_display,limit=1] transformation.scale set value [0.01f,0.01f,0.01f]
+
+execute at @e[tag=lo_button25,type=interaction,limit=1] run summon block_display ~-0.005 ~0.015 ~0.025 {Tags:["lo_answers","lo_answer25"],block_state:{Name:"red_concrete"}}
+data modify entity @e[tag=lo_answer25,type=block_display,limit=1] transformation.scale set value [0.01f,0.01f,0.01f]
+
 function puzzle:lights_out/lo_set_answer
 
 scoreboard players set lo_is_answer_showed lights_out 1

@@ -1,1 +1,2 @@
 function puzzle:lights_out/lo_click
+function puzzle:lights_out01/lo_click

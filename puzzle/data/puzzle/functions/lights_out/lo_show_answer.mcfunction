@@ -21,6 +21,8 @@ execute if score lo_is_answer_showed lights_out matches 1 run data modify entity
 execute if score lo_is_answer_showed lights_out matches 1 run data modify entity @e[tag=lo_answer21,type=minecraft:block_display,limit=1] block_state.Name set value "air"
 execute if score lo_is_answer_showed lights_out matches 1 run data modify entity @e[tag=lo_answer22,type=minecraft:block_display,limit=1] block_state.Name set value "air"
 execute if score lo_is_answer_showed lights_out matches 1 run data modify entity @e[tag=lo_answer23,type=minecraft:block_display,limit=1] block_state.Name set value "air"
+execute if score lo_is_answer_showed lights_out matches 1 run data modify entity @e[tag=lo_answer24,type=minecraft:block_display,limit=1] block_state.Name set value "air"
+execute if score lo_is_answer_showed lights_out matches 1 run data modify entity @e[tag=lo_answer25,type=minecraft:block_display,limit=1] block_state.Name set value "air"
 
 execute if score lo_is_answer_showed lights_out matches 0 run execute if score lo_buttons_answer1 lights_out matches 1 run data modify entity @e[tag=lo_answer1,type=minecraft:block_display,limit=1] block_state.Name set value "red_concrete"
 execute if score lo_is_answer_showed lights_out matches 0 run execute if score lo_buttons_answer2 lights_out matches 1 run data modify entity @e[tag=lo_answer2,type=minecraft:block_display,limit=1] block_state.Name set value "red_concrete"
@@ -45,6 +47,8 @@ execute if score lo_is_answer_showed lights_out matches 0 run execute if score l
 execute if score lo_is_answer_showed lights_out matches 0 run execute if score lo_buttons_answer21 lights_out matches 1 run data modify entity @e[tag=lo_answer21,type=minecraft:block_display,limit=1] block_state.Name set value "red_concrete"
 execute if score lo_is_answer_showed lights_out matches 0 run execute if score lo_buttons_answer22 lights_out matches 1 run data modify entity @e[tag=lo_answer22,type=minecraft:block_display,limit=1] block_state.Name set value "red_concrete"
 execute if score lo_is_answer_showed lights_out matches 0 run execute if score lo_buttons_answer23 lights_out matches 1 run data modify entity @e[tag=lo_answer23,type=minecraft:block_display,limit=1] block_state.Name set value "red_concrete"
+execute if score lo_is_answer_showed lights_out matches 0 run execute if score lo_buttons_answer24 lights_out matches 1 run data modify entity @e[tag=lo_answer24,type=minecraft:block_display,limit=1] block_state.Name set value "red_concrete"
+execute if score lo_is_answer_showed lights_out matches 0 run execute if score lo_buttons_answer25 lights_out matches 1 run data modify entity @e[tag=lo_answer25,type=minecraft:block_display,limit=1] block_state.Name set value "red_concrete"
 
 scoreboard players add lo_is_answer_showed lights_out 1
 execute if score lo_is_answer_showed lights_out matches 2 run scoreboard players set lo_is_answer_showed lights_out 0
